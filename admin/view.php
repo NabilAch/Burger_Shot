@@ -70,6 +70,7 @@ function checkInput($data)
 
 
             </div>
+            
             <div class="col-sm-6 site">
                 <div class="thumbnail">
                     <img src="<?php echo '../images/' . $item['image'];?>" alt="...">

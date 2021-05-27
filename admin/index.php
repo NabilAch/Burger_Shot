@@ -48,7 +48,7 @@
 
                     echo '<td>' . $item['name'] . '</td>';
                     echo '<td>' . $item['description'] . '</td>';
-                    echo '<td>' . number_format((float)$item['price'],2,'.','') . '</td>';
+                    echo '<td>' . number_format((float)$item['price'], 2, '.', '') . '</td>';
                     echo '<td>' . $item['category'] . '</td>';
                     echo '<td width=300>';
                     echo '<a class="btn btn-default" href="view.php?id=' . $item['id'] . '"><span class="glyphicon glyphicon-eye-open"></span> Voir</a>';
